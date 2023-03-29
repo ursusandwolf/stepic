@@ -1,5 +1,5 @@
 n = int(input())
-for n in range(n+1):
+for n in range(n):
     line = list(map(int, input().split()))
     print((set(line)))
     print(len(set(line)))
